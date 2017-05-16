@@ -1,0 +1,9 @@
+{
+  "realm": "KC_REALM",
+  "auth-server-url": "KC_BASE_URL",
+  "ssl-required": "all",
+  "resource": "kie-git",
+  "credentials": {
+    "secret": "KC_KIE_GIT_SECRET"
+  }
+}
