@@ -11,7 +11,7 @@ MAINTAINER "Martijn Burger" "martijnburger@paston.nl"
 ####### ENVIRONMENT ############
 ENV JBOSS_BIND_ADDRESS 0.0.0.0
 ENV KIE_REPOSITORY https://repository.jboss.org/nexus/content/groups/public-jboss
-ENV KIE_VERSION 7.0.0.CR2
+ENV KIE_VERSION 7.0.0.CR3
 ENV KIE_CLASSIFIER wildfly10
 ENV KIE_SERVER_CLASSIFIER ee7
 ENV KIE_CONTEXT_PATH kie-wb
