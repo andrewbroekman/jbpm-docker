@@ -21,7 +21,7 @@
 
     <xsl:template match="//ds:subsystem/ds:datasources/ds:datasource[@jndi-name='java:jboss/datasources/ExampleDS']" xmlns="urn:jboss:domain:datasources:4.0">
         <datasource jndi-name="java:jboss/datasources/ExampleDS" pool-name="ExampleDS" jta="true" enabled="true" use-java-context="true" use-ccm="true">
-            <connection-url>jdbc:mysql://${env.MYSQL_HOST}:${env.MYSQL_PORT}/${env.MYSQL_DATABASE:jbpm}</connection-url>
+            <connection-url>jdbc:mysql://${env.MYSQL_PORT_3306_TCP_ADDR}:${env.MYSQL_PORT_3306_TCP_PORT}/${env.MYSQL_DATABASE:jbpm}</connection-url>
             <driver>mysql</driver>
             <security>
                 <user-name>${env.MYSQL_USERNAME:jbpm}</user-name>

@@ -12,8 +12,8 @@ docker run -t -d  \
   -e MYSQL_DATABASE={MySQL database name} \
   -e MYSQL_PASSWORD={MySQL database password} \
   -e MYSQL_USERNAME={MySQL database user} \
-  -e MYSQL_HOST={MySQL Database host} \
-  -e MYSQL_PORT={MySQL Database port} \
+  -e MYSQL_PORT_3306_TCP_ADDR={MySQL Database host} \
+  -e MYSQL_PORT_3306_TCP_PORT={MySQL Database port} \
   -e KIE_SERVER_USER={Name of a Keycloak user with kie-server role. Usually called kieserver} \
   -e KIE_SERVER_PWD={password for the aforementioned user} \
   -e KIE_SERVER_CONTROLLER_USER={use the same user as before} \
