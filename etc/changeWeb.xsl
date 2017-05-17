@@ -23,6 +23,10 @@
         </security-constraint>
     </xsl:template> 
 
+    <xsl:template match="//session-config/session-timeout">
+        <session-timeout>30</session-timeout>
+    </xsl:template> 
+
     <xsl:template match="@*|node()">
         <xsl:copy>
             <xsl:apply-templates select="@*|node()"/>
